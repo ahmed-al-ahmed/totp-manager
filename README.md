@@ -5,6 +5,7 @@ source ./venv/bin/activate
 pip install -r requirements.txt
 ```
 
+## Cheatsheet
 #### Add a new secret
 ```shell
 python totp_manager.py add john@example.com JBSWY3DPEHPK3PXP
