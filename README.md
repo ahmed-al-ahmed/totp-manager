@@ -1,3 +1,10 @@
+## Installation
+```shell
+python -m venv venv .
+source ./venv/bin/activate
+pip install -r requirements.txt
+```
+
 #### Add a new secret
 ```shell
 python totp_manager.py add john@example.com JBSWY3DPEHPK3PXP
